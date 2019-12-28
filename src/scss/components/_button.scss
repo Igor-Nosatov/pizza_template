@@ -1,0 +1,37 @@
+.main-button {
+  color: $white !important;
+  background: $red;
+  border: none;
+  padding: $size1;
+  text-transform: uppercase;
+  font-weight: 300;
+  display: flex;
+   justify-content: center;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: $size1;
+
+  &:hover {
+    color: $white;
+    border: none;
+    outline: none;
+  }
+}
+.shop-button{
+  color: $white !important;
+  background: $red;
+  border: none;
+  padding: ($size1/2);
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: ($size1 - 4);
+
+  &:hover {
+    color: $white;
+    text-decoration: none;
+    border: none;
+    outline: none;
+  }
+}

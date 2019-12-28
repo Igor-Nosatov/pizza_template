@@ -1,0 +1,14 @@
+.form-row > .col-10 > .form-control {
+  border-radius: 0;
+  padding: ($size1 + 14.5px);
+  border-radius: 0;
+  font-size:$size1;
+}
+
+.form-control {
+  border-radius: 0 !important;
+  padding: ($size1 - 5px);
+  letter-spacing: 2px;
+  font-size: ($size1 - 2px);
+  font-weight: 900;
+}

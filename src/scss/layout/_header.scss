@@ -1,0 +1,54 @@
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  font-size: $size1;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 2px;
+  padding-top: ($size1+ 10px);
+  color: $red;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  color: $white !important;
+  font-size: $size1;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+.bg-red{
+  background-color: $red !important;
+}
+
+
+.overlay {
+  position: absolute;
+  z-index: -99;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.title_order-box {
+  font-size: ($size1+ 15px);
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 3px;
+  padding-top: ($size1+ 10px);
+  color: $white;
+  font-family: 'Roboto', sans-serif;
+}
+.search-box{
+  padding-top: 30%;
+}

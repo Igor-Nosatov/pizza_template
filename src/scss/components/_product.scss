@@ -1,0 +1,86 @@
+.card-title{
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: ($size1 - 4px);
+}
+.card-text{
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: ($size1 - 4px);
+}
+.shop-card{
+  border: 1px solid $midnight;
+}
+
+.banner{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 0px;
+  padding-top: ($size1 * 10);
+}
+.ads-content{
+  background-color: rgba(85,78,43,.75);
+  padding: $size1  0px;
+}
+.wrapper-category1{
+  background-image: url("../img/product/256.jpg");
+}
+.wrapper-category2{
+  background-image: url("../img/product/255.jpg");
+}
+.wrapper-category3{
+  background-image: url("../img/product/259.jpg");
+}
+.wrapper-category4{
+  background-image: url("../img/product/8.jpg");
+}
+.wrapper-category5{
+  background-image: url("../img/product/7.jpg");
+}
+.wrapper-category6{
+  background-image: url("../img/product/6.jpg");
+}
+.wrapper-category7{
+  background-image: url("../img/product/2.jpg");
+}
+.wrapper-category8{
+  background-image: url("../img/product/282.jpg");
+}
+
+.category-text{
+  font-size: $size1;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: $white;
+  text-align: center;
+  &:hover{
+    text-decoration: none !important;
+  }
+}
+
+
+.product-title {
+  font-size: $size1;
+  font-weight: 300;
+  letter-spacing: 3px;
+  color: $grey;
+  text-align: left;
+}
+
+.product-description,
+.price,
+.checkout-title,
+.contact-title,
+.total {
+  padding-top: ($size1 - 5px);
+  font-size: ($size1 - 4px);
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: $grey;
+  text-align: left;
+}

@@ -1,0 +1,42 @@
+.img-banner {
+  padding-bottom: $size2;
+}
+
+.banner_area {
+  background-color: $white;
+  padding-bottom: ($size2 + 5px);
+}
+.banner_area1 {
+  background-color: $white;
+  padding-bottom: ($size2 + 15px);
+}
+.banner_area2 {
+  background-color: $white;
+  padding-bottom: ($size2 + 15px);
+}
+
+.promo_banner1,
+.promo_banner2,
+.promo_banner3{
+  background-color: $light-grey;
+  padding-top: $size2;
+  padding-bottom: $size2;
+}
+
+.title-banner {
+  color: $black;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: ($size1 + 5px);
+  padding: $size2 $size1 5px;
+  font-weight: bold;
+}
+
+.text-banner {
+  color: $black;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: ($size1 - 2px);
+  padding: 5px $size1 $size1;
+  font-weight: 200;
+}

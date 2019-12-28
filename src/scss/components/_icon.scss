@@ -1,0 +1,29 @@
+.fa-pizza-slice{
+  color:$red;
+}
+.pizza1{
+  color:$white !important;
+}
+.fa-facebook{
+  color:$blue;
+}
+.fa-twitter{
+  color:$light-blue;
+}
+.fa-instagram{
+  color:$brown;
+}
+
+.fa-times{
+  color: $grey;
+  font-size:  ($size1 + 8px);
+  &:hover{
+    color: $grey;
+  }
+}
+
+.fa-location-arrow,
+.fa-phone,
+.fa-envelope{
+  color: $grey;
+}

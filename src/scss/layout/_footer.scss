@@ -1,0 +1,41 @@
+
+.footer-menu{
+  padding-top: ($size1/2);
+  padding-bottom: ($size1/2);
+  background-color: $red;
+  color:$white;
+}
+.client-info{
+  padding-top: ($size1/2);
+  padding-bottom: ($size1/2);
+  background-color: $midnight;
+  color:$white;
+}
+.footer-nav>.nav-item>.nav-link{
+  color:$white;
+  letter-spacing: 2px;
+  font-size: ($size1 - 2px);
+  font-weight: 200;
+  &:hover{
+    color:$white;
+  }
+}
+.text_client-info{
+  color:$white;
+  letter-spacing: 2px;
+  font-size: ($size1 - 2px);
+  font-weight: 200;
+  text-align: justify;
+}
+.copyright{
+  background-color: $black;
+}
+.text_copyright{
+  padding-top: $size1;
+  padding-bottom: ($size1/2);
+  color:$white;
+  letter-spacing: 2px;
+  font-size: ($size1 - 2px);
+  font-weight: 200;
+  text-align: justify;
+}
